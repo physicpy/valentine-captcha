@@ -8,7 +8,7 @@ const modalHeader = document.getElementById('modal-header');
 
 // State
 // State
-let currentRound = 0; // 0 = idle, 1 = traffic lights, 2 = valentine
+let currentRound = 2; // 0 = idle, 1 = traffic lights, 2 = valentine
 let selectedTiles = new Set();
 const TRAFFIC_LIGHT_URL = 'assets/traffic-light.png';
 // Round 2 now uses 9 separate images
